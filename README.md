@@ -1,6 +1,8 @@
 # ai4FastEvolution
 An official implement of Uncovering the Hidden Consequences of Rapid Adaptation in Invasive Plants via a Deep Learning Approach
 
+![The pipeline of our proposed methods](pipeline.png)
+
 ## Environment Setup
 To set up the environment and install dependencies, run:
 
