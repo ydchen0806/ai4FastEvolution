@@ -24,6 +24,9 @@ def fill_nan_data(data_path, nan_value, fill_method='mean'):
             elif fill_method == 'median':
                 # 使用中位数填充缺失值
                 original_data[index] = np.nanmedian(original_data)
+            elif fill_method == 'nearest':
+                pass
+                # need to complete
             else:
                 raise ValueError('fill_method is not supported')
             data[key][:] = original_data
