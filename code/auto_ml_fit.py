@@ -55,7 +55,8 @@ def auto_predict(predictor, data, y_label, x_label, save_path):
     data = data.reset_index(drop=True)
     test_data = TabularDataset(data)
     y_pred = predictor.predict(test_data)
-    return y_pred
+    return y_pred 
+    # predict growth rate
 
 def auto_fit_predict(data, y_label, x_label, save_path):
     from sklearn.metrics import mean_squared_error
