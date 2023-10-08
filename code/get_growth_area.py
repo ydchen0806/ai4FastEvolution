@@ -8,6 +8,7 @@ import math
 from scipy.spatial import distance
 
 def get_min_distance(data, X, Y, year, r_area, index, n=5):
+    # use edge detector to extract nearest edges (include independent patches)
     x = X[index]
     y = Y[index]
     year = year[index]
