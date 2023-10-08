@@ -101,7 +101,7 @@ def get_continues(data_size, data_pos, save_dir):
             for k, year in enumerate(years[1:]):
                 index_year = years.get_loc(year)
                 growth_days = (date_list[index_year] - date_list[index_year-1]).days
-                growth_rate = (temp_row[index_year] - temp_row[index_year -1]) / growth_days
+                growth_rate = (temp_row[index_year] - temp_row[index_year -1]) / growth_days # need to change (use regress method or div by patch size)
                 size = temp_row[year]
                 year = str(year)         
                 pos_x = data_pos.loc[row, str(year) + 'x']
