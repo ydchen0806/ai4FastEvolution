@@ -8,6 +8,8 @@ import random
 from matplotlib import pyplot as plt
 import seaborn as sns
 
+# regress result explained 46.6% variance of growth rate so that it can not get higher prediction result for patch growth rate
+# use the 10 most important features directly regress and fit (keep consistent feature in part 2 and part 3)
 
 def get_data(data_path):
     if os.path.basename(data_path).split('.')[1] == 'xlsx' or os.path.basename(data_path).split('.')[1] == 'xls':
