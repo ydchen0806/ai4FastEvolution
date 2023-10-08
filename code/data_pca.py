@@ -19,6 +19,7 @@ def get_data(data_path):
     return data
 
 def pca_data(data, if_random = False, n_components = 4, feature_path=None ,start_feature = 'u10_1', end_feature = 'precip_12', save_dir = None):
+    # use less data to make the pca result easy to complain (need to complete)
     if save_dir:
         os.makedirs(save_dir, exist_ok=True)
     if feature_path:
