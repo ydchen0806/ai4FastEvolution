@@ -36,6 +36,7 @@ We highly recommend using Docker to set up the required environment. Two Docker 
 - **/weather_data_1005** - Contains two climate datasets:
   - [ERA5-Land hourly data](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land?tab=form) - Hourly surface reanalysis data.
   - [Precipitation monthly and daily gridded data](https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-precipitation?tab=form) - Monthly and daily gridded precipitation data.
+  - [China weather station data](https://data.cma.cn/). - Weather data from the Chinese government.
 
 ## Code
 
